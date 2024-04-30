@@ -1,0 +1,188 @@
+.header{
+    display: flex;
+   background-color:#3ab7b1;
+   justify-content: space-between;
+    align-items: center;
+    color:#ffffff;
+    padding:15px;
+
+}
+
+.header h1 span{
+    color: #0bfaff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-container{
+    width:100%;
+    height:600px;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+}
+.img-container img{
+    width:100%;
+    height:700px;
+    object-fit: cover;
+}
+
+.menu ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.menu li{
+    padding:8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover{
+    background-color: #0099cc;
+}
+/* .header{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width:100%;
+}
+#header_img{
+    position: absolute;
+    top:30px;
+    left:60%;
+    height: 412px;
+    width:526px;
+}
+#header_img_blue{
+    position:absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+} */
+/* #header_txt{
+    position:absolute;
+    top:20%;
+    left: 80px;
+    width: 600px;
+
+    color:#0bfaff;
+
+    font-size: 40px;
+    text-align: center;
+
+
+} */
+
+
+
+
+.nav{
+    display:flex;
+    margin-right: 10px;
+ } 
+ .nav ol{
+     list-style: none;
+     display:flex;
+     
+ }
+ .nav ol li{
+ padding-left: 20px;
+ }
+ .nav ol li a{
+     text-decoration: none;
+     font-size: 20px;
+     color: white;
+ }
+ .nav ol li a:hover{
+     background-color: #0bfaff;
+     font-size: 25px;
+ 
+ } 
+
+/* 
+.nav{
+    position: absolute;
+    top:10px;
+    left:60%;
+}
+.nav ol{
+    list-style: none;
+    display:flex;
+}
+.nav ol li{
+padding-left: 20px;
+}
+.nav ol li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+#logo{
+    position: absolute;
+    top:0px;
+    left:5px;
+
+    font-size: 30px;
+    color: blanchedalmond;
+} */
+
+/*--------------------------------------------connexion---------------------------------*/
+
+#login{
+            position:absolute;
+            top:400px;
+            height:250px;
+            width: 280px;
+            left: 40%;
+            padding-left:10px;
+            padding-right:10px;
+            color: RGBa(150,150,155,1);   
+            border-radius: 10px;
+            background-color:RGBa(250,250,250,0.9) ;                
+        }
+input{
+        text-align: center;
+        background: #cecfe7;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        font-size: 16px;
+        transition: border .5s;
+        width: 280px;
+        padding: 10px 0px;          
+    }
+#utilisateur {
+    background-image: url(../images/username.png);
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position:4px; 
+}
+#email{
+    background-image: url(../images/email.png);
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position:4px;
+}
+#mot_de_passe{
+    background-image: url(../images/password.png);
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position:4px;
+}
+#mot_de_passe_v{
+    background-image: url(..//images/password.png);
+    background-size:30px;
+    background-repeat: no-repeat;
+    background-position:4px;
+}
+#erreur{
+    font-weight: bold;
+    color: red;
+	
+}
+	
